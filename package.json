@@ -1,0 +1,35 @@
+{
+  "name": "goit-hw-07-handlebars",
+  "version": "1.0.0",
+  "description": "hw 07",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /goit-hw-07-handlebars/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitroOmelianenko/goit-hw-07-handlebars.git"
+  },
+  "keywords": [
+    "hw",
+    "homework"
+  ],
+  "author": "Dmytro Omelianenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitroOmelianenko/goit-hw-07-handlebars/issues"
+  },
+  "homepage": "https://github.com/DmitroOmelianenko/goit-hw-07-handlebars#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "handlebars": "^4.7.8",
+    "parcel": "^2.15.0"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  }
+}
