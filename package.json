@@ -26,7 +26,9 @@
   "dependencies": {
     "gh-pages": "^6.3.0",
     "handlebars": "^4.7.8",
-    "parcel": "^2.15.0"
+    "parcel": "^2.15.0",
+    "parcel-plugin-handlebars": "^0.4.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
   "devDependencies": {
     "parcel-reporter-clean-dist": "^1.0.4",
