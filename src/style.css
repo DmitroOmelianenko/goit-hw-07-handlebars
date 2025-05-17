@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    background-color: aqua;
+    border: solid black 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+

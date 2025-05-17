@@ -18,3 +18,14 @@ export const products = [
     description: 'Noise-cancelling headphones for better focus.',
   },
 ];
+
+const container = document.getElementById('product-list');
+const ul = document.createElement('ul');
+products.forEach(product => {
+  const li = document.createElement('li');
+  li.innerHTML = `<h3>${product.name}</h3> - $${product.price}<p>${product.description}</p>`;
+  ul.appendChild(li);
+});
+
+
+container.appendChild(ul);
